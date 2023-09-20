@@ -13,19 +13,19 @@ const Navbar = () => {
 	px='20px'
  	>
 		<Link to='/'>
-		<img src={Logo} alt='logo' style={{width:'48px', height:'48px', margin:'0 20px'}}/>
+		<img src={Logo} alt='logo' style={{width:'70px', height:'70px', margin:'0 20px'}}/>
 		</Link>
 		<Stack 
 		direction='row'
 		gap='40px'
-		fontSize='24px'
+		fontSize='30px'
 		alignItems='flex-end'
 		>
-			<Link to='/' style={{textDecoration:'none', color:'#202d85', borderBottom:'3px solid ##202d85'}}> HOME</Link>
+			<Link to='/' style={{textDecoration:'none', color:'#202d85', borderBottom:'3px solid #202d85'}}> Home</Link>
 			<a href='#exercises' style={{textDecoration:'none', color:'#202d85'}}>Exercises</a>
 		</Stack>
 	</Stack>
 	)
 }
 
-export default Navbar
+export default Navbar;
