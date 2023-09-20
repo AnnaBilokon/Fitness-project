@@ -81,7 +81,7 @@ Search
 		position: 'relative', 
 	  	width: '100%',
 		p: '20px'}}>
-		<HorizontalScrollbar data={bodyParts} setBodyPart={setBodyPart} bodyPart={bodyPart}/>
+		<HorizontalScrollbar data={bodyParts} setBodyPart={setBodyPart} bodyPart={bodyPart} isBodyParts/>
 
 	  </Box>
 	</Stack>
